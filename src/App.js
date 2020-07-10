@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import DisplayColumn from './Display/DisplayColumn.js';
+import PlanningColumn from './Planner/PlanningColumn.js';
 
 function App() {
   return (
     <div className="App">
-
+      <PlanningColumn/>
+      <DisplayColumn/>
     </div>
   );
 }
